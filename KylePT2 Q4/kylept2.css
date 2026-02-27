@@ -18,7 +18,7 @@ img { width: 100px;
             a:hover { color: #90D5FF; 
             }
             
-            h2 { text-shadow: 2px 0 #90D5FF , 2px 0 #90D5FF , 0 2px #90D5FF , 0 2px #90D5FF, 2px 2px #90D5FF , 2px 2px #90D5FF , 2px 2px #90D5FF , 2px 2px #90D5FF ;
+            h2 { text-shadow: 2px 0 #ffff00 , 2px 0 #ffff00 , 0 2px ##ffff00 , 0 2px ##ffff00, 2px 2px ##ffff00 , 2px 2px ##ffff00 , 2px 2px #ffff00 , 2px 2px ##ffff00 ;
                  font-size: 40px;
                  color: blue;
                 font-family: helvetica;
@@ -82,3 +82,4 @@ img { width: 100px;
             
             .img5 { width: 600px;
                     height: 300px; }
+
