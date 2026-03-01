@@ -24,7 +24,7 @@ img { width: 100px;
             
             h2 { text-shadow: 2px 0 #90D5FF , 2px 0 #90D5FF , 0 2px #90D5FF , 0 2px #90D5FF, 2px 2px #90D5FF , 2px 2px #90D5FF , 2px 2px #90D5FF , 2px 2px #90D5FF ;
                  font-size: 40px;
-                 color: blue;
+                 color: #FFDE21;
                 font-family: helvetica;
             }
             
@@ -86,6 +86,7 @@ img { width: 100px;
             
             .img5 { width: 600px;
                     height: 300px; }
+
 
 
 
