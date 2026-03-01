@@ -1,31 +1,108 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Learnix - Feedback Form</title>
+    <title>eLearnza - Feedback Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f9ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 50%;
+            margin: 40px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+            color: #0A61C9;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        .radio-group, .checkbox-group {
+            margin-bottom: 15px;
+        }
+
+        .radio-group input,
+        .checkbox-group input {
+            width: auto;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0A61C9;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #083f82;
+        }
+    </style>
 </head>
+
 <body>
 
+<div class="container">
+
     <h2>eLearnza Feedback Form</h2>
-    <p>We value your feedback! Please fill out the form below.</p>
+    <p>We value your feedback! Help us improve our learning experience.</p>
 
     <form action="#" method="post">
 
-        <label for="fullname">Full Name:</label><br>
-        <input type="text" id="fullname" name="fullname" required><br><br>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
 
-        <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-        <label for="grade">Grade Level:</label><br>
-        <select id="grade" name="grade">
+        <label for="grade">Grade Level:</label>
+        <select id="grade" name="grade" required>
+            <option value="">-- Select Grade --</option>
             <option value="Grade 7">Grade 7</option>
             <option value="Grade 8">Grade 8</option>
             <option value="Grade 9">Grade 9</option>
             <option value="Grade 10">Grade 10</option>
-        </select><br><br>
+        </select>
 
-        <label for="topic">Subject/Topic Concern:</label><br>
-        <select id="topic" name="topic">
+        <div class="radio-group">
+            <label>How satisfied are you with the lesson?</label><br>
+            <input type="radio" name="satisfaction" value="Excellent" required> Excellent
+            <input type="radio" name="satisfaction" value="Good"> Good
+            <input type="radio" name="satisfaction" value="Fair"> Fair
+            <input type="radio" name="satisfaction" value="Poor"> Poor
+        </div>
+
+        <label for="topic">Subject / Topic Concern:</label>
+        <select id="topic" name="topic" required>
+            <option value="">-- Select Topic --</option>
             <option value="Hyperlinks">Hyperlinks</option>
             <option value="Frames">Frames</option>
             <option value="Webforms">Webforms</option>
@@ -33,15 +110,24 @@
             <option value="CSS Selectors">CSS Selectors</option>
             <option value="Formatting Text with CSS">Formatting Text with CSS</option>
             <option value="Formatting Layout with CSS">Formatting Layout with CSS</option>
-        </select><br><br>
+        </select>
+        
+        <div class="checkbox-group">
+            <label>What would you like to see more of?</label><br>
+            <input type="checkbox" name="improve" value="More Examples"> More Examples
+            <input type="checkbox" name="improve" value="More Activities"> More Activities
+            <input type="checkbox" name="improve" value="Video Tutorials"> Video Tutorials
+            <input type="checkbox" name="improve" value="Practice Quizzes"> Practice Quizzes
+        </div>
 
-        <label for="message">Message / Feedback:</label><br>
-        <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+        <label for="message">Message / Feedback:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your feedback here..." required></textarea>
 
-        <input type="submit" value="Submit Feedback">
+        <button type="submit">Submit Feedback</button>
 
     </form>
 
+</div>
+
 </body>
 </html>
-
