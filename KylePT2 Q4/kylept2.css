@@ -86,3 +86,7 @@ img { width: 100px;
             
             .img5 { width: 600px;
                     height: 300px; }
+            ul {
+    list-style-image: url("https://static.vecteezy.com/system/resources/previews/056/872/496/non_2x/a-yellow-arrow-pointing-left-in-a-blue-circle-free-vector.jpg");
+    padding-left: 40px;
+}
