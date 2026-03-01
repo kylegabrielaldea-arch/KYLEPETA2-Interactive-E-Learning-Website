@@ -5,7 +5,7 @@ img { width: 100px;
                    background-color: #FFDE21;
                    position: sticky;
                    top: 0; 
-                   z-index: 500;
+                   z-index: 100;
                    padding: 15px;
                    display: flex;
                    align-items: center;
@@ -86,6 +86,7 @@ img { width: 100px;
             
             .img5 { width: 600px;
                     height: 300px; }
+
 
 
 
