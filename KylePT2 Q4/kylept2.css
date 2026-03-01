@@ -31,13 +31,13 @@ img { width: 100px;
             
             .highlight { text-shadow: 2px 0 #0A61C9 , -2px 0 #0A61C9 , 0 2px #0A61C9 , 0 -2px #0A61C9, 1px 1px #0A61C9 , -1px -1px #0A61C9 , 1px -1px #0A61C9 , -1px 1px #0A61C9; 
                  font-size: 25px; 
-                 color: #90D5FF;
+                 color: #fffd90;
                  font-weight: bold;
                  text-align: center; }
                 
             .highlight2 { text-shadow: 2px 0 #0A61C9 , -2px 0 #0A61C9 , 0 2px #0A61C9 , 0 -2px #0A61C9, 1px 1px #0A61C9 , -1px -1px #0A61C9 , 1px -1px #0A61C9 , -1px 1px #0A61C9; 
                  font-size: 15px; 
-                 color: #90D5FF;
+                 color: #ffd90;
                  font-weight: bold;
                  text-align: center; }
             
@@ -82,5 +82,6 @@ img { width: 100px;
             
             .img5 { width: 600px;
                     height: 300px; }
+
 
 
