@@ -56,12 +56,12 @@ img { width: 100px;
             }
             
             .bg { border-style: outset;
-                  border-color: white; 
+                  border-color: #FFDE21;
                  background-color: black;
             }
             
             .dot { border-style: outset;
-                  border-color: blue; }
+                  border-color: #90D5FF; }
                   
             iframe { width: 710px;
                     height: 315px; }
@@ -86,6 +86,7 @@ img { width: 100px;
             
             .img5 { width: 600px;
                     height: 300px; }
+
 
 
 
