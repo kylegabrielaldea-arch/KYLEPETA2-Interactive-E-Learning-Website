@@ -33,7 +33,7 @@ img { width: 100px;
                  color: #A3CAE9;
             }
             
-            .highlight { text-shadow: 2px 0 #0A61C9 , -2px 0 #0A61C9 , 0 2px #0A61C9 , 0 -2px #0A61C9, 1px 1px #0A61C9 , -1px -1px #0A61C9 , 1px -1px #0A61C9 , -1px 1px #0A61C9; 
+            .highlight { text-shadow: 2px 0 #90D5FF , -2px 0 #90D5FF , 0 2px #90D5FF , 0 -2px #90D5FF, 1px 1px #90D5FF , -1px -1px #90D5FF , 1px -1px #90D5FF , -1px 1px #90D5FF; 
                  font-size: 25px; 
                  color: #fffd90;
                  font-weight: bold;
@@ -68,13 +68,13 @@ img { width: 100px;
                     
             body { margin: 0px; }
             
-            button { background-color:  #0A61C9; }
+            button { background-color:  #90D5FF; }
             
              .img3 { width: 200px;
                   height: 200px;
                   border-width: 4px;
                   border-style: inset;
-                  border-color: #0A61C9; 
+                  border-color: #90D5FF 
                   object-fit: cover;
                   transition: transform 0.3s ease-in-out;
             }
@@ -86,6 +86,7 @@ img { width: 100px;
             
             .img5 { width: 600px;
                     height: 300px; }
+
 
 
 
