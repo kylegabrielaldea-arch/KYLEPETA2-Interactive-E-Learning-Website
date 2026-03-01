@@ -9,7 +9,7 @@ img { width: 100px;
             }
             
             a { text-decoration: none; 
-                color: #fff;
+                color: #90D5FF;
                 text-shadow: 2px 0 black , -2px 0 black , 0 2px black , 0 -2px black,
                 1px 1px black , -1px -1px black , 1px -1px black , -1px 1px black ;
                 font-size: 30px;
@@ -82,6 +82,7 @@ img { width: 100px;
             
             .img5 { width: 600px;
                     height: 300px; }
+
 
 
 
